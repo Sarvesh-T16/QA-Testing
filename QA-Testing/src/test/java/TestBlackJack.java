@@ -5,7 +5,7 @@ public class TestBlackJack {
 
     @Test
     public void testBlackJack() {
-        Blackjack blackjack = new Blackjack();
+        BlackJack blackjack = new BlackJack();
 
         int val1 = blackjack.calculateBlackjack(20,10);
         int val2 = blackjack.calculateBlackjack(22,30);
